@@ -3,7 +3,6 @@
 	<head>
 		<title>Nishant Deshpande</title>
 		<script type="text/javascript">
-		
 		var TxtRotate = function(el, toRotate, period) 
 		{
 			this.toRotate = toRotate;
@@ -76,18 +75,14 @@
 		  	}
 		  
 		  // Injecting CSS
-		  
 		  var css = document.createElement("style");
 		  css.type = "text/css";
 		  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #666 }";
 		  document.body.appendChild(css);
 
 		};
-
 	</script>
-
 	<style type="text/css">
-		
 	body 
 	{
 	  font-family: Arial;
@@ -96,27 +91,25 @@
 	  background: #222;
 	  color: lightgray;
 	}
-
 	h1,h2 
 	{
 		font-weight: 200;
 	  	margin: 0.4em 0;
 	  	font-size: 3.5em; 
 	}
-
 	a
 	{
 		color: lightgray;
 		font-size: 18px;
 		font-family: Arial;
 	}
-
+	/*
 	a:hover
 	{
 		color: black;
 		font-size: 20px;
 	}
-
+	*/
 	.divLink
 	{
 		background-color: black;
@@ -124,24 +117,67 @@
 		padding: 10px;
 		border: 5px 5px;
 	}
-
+	.decText
+	{
+		font-size: 24px;
+		font-style: italic;
+		text-align: center;
+	}
+	.imageResize
+	{
+		width: 75px;
+		height: 75px;
+		float: left;
+	}
+	.logoPlacement
+	{
+		width: 15%;
+	}
+	.left
+	{
+		margin-left: 30%;
+		margin-right: 2.5%;
+	}
+	.mid
+	{
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	.right
+	{
+		margin-left: 2.5%;
+		margin-right: 30%;
+	}
+	.extraPadding
+	{
+		padding-top: 100px;
+	}
 	</style>
-	
 	</head>
-
-	<body style="background-color: #34495E">
-
+	<body style="background-color: #14495E">
 		<br>
 		<h1>My name is Nishant Deshpande <br>
 			and I am 
 	  		<span
 	  			class="txt-rotate"
-	     		data-period="2000"
+	     		data-period="500"
 	     		data-rotate='[ "nerdy.", "geeky.", "awesome.", "fun!" ]'>
 	     	</span>
+	     	<h2 class="decText">Coming Soon!</h2>
 		</h1>
-
-		<br> <br> <br>
-
+		<h2 class="decText extraPadding">Visit me at:</h2>
+		<br> <br> 
+			<a href="https://www.facebook.com/deshpande.nishant12">
+				<img src="facebook_logo.png" class="imageResize left">
+			</a>
+			<a href="https://twitter.com/nishdesh">
+				<img src="twitter_logo.png" class="imageResize mid">
+			</a>
+			<a href="https://github.com/nishantde">
+				<img src="github_logo.png" class="imageResize mid">
+			</a>
+			<a href="https://www.instagram.com/arshant/">
+				<img src="instagram_logo.png" class="imageResize right">
+			</a>
 	</body>
 </html>
