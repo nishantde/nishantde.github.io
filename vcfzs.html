@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <title>VCFZS</title>
+</head>
+<body>
+
+    <div class="container is-max-desktop">
+        <div class="left-vertical-navbar">
+            <ul class="fixed-left-navbar">
+                <li class="navbar-list-item-parent">
+                    <a href="#objective">
+                        Objective
+                    </a>
+                </li>
+                <li class="navbar-list-item-parent">
+                    <a href="#requirement-analysis">
+                        Requirement Analysis
+                    </a>
+                </li>
+                <li class="navbar-list-item-parent">
+                    <a href="#stakeholders">
+                        Stakeholders
+                    </a>
+                </li>
+                <li class="navbar-list-item-parent">
+                    <a href="#two-key-features">
+                        Two Key Features
+                    </a>
+                </li>
+                <li class="navbar-list-item-parent">
+                    <a href="#user-interface">
+                        User Interface
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="main-page-content">
+            <div class="intro">
+                <h1 class="project-3">VCFZS: Virtual Car-Free Zone System</h1>
+                <div>
+                    This was a project undertaken in CPSC8710 - Foundations of Software Engineering, taught by Dr. Murali Sitaraman. I undertook this semester-long project with two other team members: Dhananjay Nikam and Tonique Dennis. We were tasked with understanding the different parties that would be involved with the creation of car-free zones, and the process involved in doing so virtually using a software or tool. We researched the needs of such a zone, existing implementations, execution cost, stakeholders, and finally designed a set of high-fidelity web-based prototypes for the clients who would be using this tool.
+                </div>
+            </div>
+        
+            <div class="objective" id="objective">
+                <h2>Objective</h2>
+                <p>
+                    Vehicular emissions of smoke have adverse health effects that could lead to a multitude of dangerous and chronic complications. This, coupled with the primary usage of fossil fuels to power such vehicles, makes up a deadly combination of automotive technology that is continually on the rise, using resources that are dwindling.
+                </p>
+                <p>
+                    Car-free zones not only help in maintaining a healthy population of foot-traffic but also to comply with environmental regulations. Statistics say that the city of London expended its yearly budget of Carbon Dioxide emissions in the first month of 2018. If this were to be a regular phenomenon instead of an outlier, so would the need for the presence of more car-free zones.
+                </p>
+            </div>
+        
+            <div class="requirement-analysis" id="requirement-analysis">
+                <h2>Requirement Analysis</h2>
+                <p>
+                    We categorized requirements into <b>functional</b> and <b>non-functional</b>. The former defined the constraints of <i>what</i> a system could do, while the latter described the limitations on <i>how</i> it could do it. Functional requirements affect the functionality of the system (hence, the name), and therefore, they are critical to the working of the product. Non-functional requirements are not mandatory to address, but failing to do so would have a severe impact on the product’s usability.
+                </p>
+                <p>
+                    Our requirements spanned five major areas:
+                    <ol>
+                        <li>Notification system</li>
+                        <li>Credentials</li>
+                        <li>Databsae connectivity</li>
+                        <li>Subscription model</li>
+                        <li>Mapping function</li>
+                    </ol>
+                </p>
+            </div>
+        
+            <div class="stakeholders" id="stakeholders">
+                <h2>Stakeholders</h2>
+                <p>
+                    We identified eleven key stakeholder groups for this project, ranging from top management, event organizers, and government agencies, to car owners, shopkeepers, and residents. These stakeholders all have a direct impact on how the zone would function. 
+                </p>
+                <p>
+                    We came up with a list of ten questions for each of the eleven stakeholders in order to understand their needs and expectations. An in-depth look into the answers also helped in collecting possible relationships between stakeholders, or among stakeholders and third parties. For instance, city planners would expect the VCFZS administrator to work closely with them to determine the zones and provide the required permissions. City planners, in turn, would be expected to coordinate with government agencies and provide appropriate parking spaces and facilities for the shopkeepers, and for the event organizers to take their cargo from the border of the CFZ to their respective spots.
+                </p>
+            </div>
+        
+            <div class="two-key-features" id="two-key-features">
+                <h2>Two Key Features</h2>
+                <p>
+                    During the ideation phase and the requirement analysis stage, there were two key features that were thought to be crucial for the optimal functioning of the product: block selection for zone marking, and notification alerts for nearby citizens. The design of the former includes manual zone marking via two methods: using the mouse to select and drag zone end-points (presented on a map GUI), or using the keyboards to enter coordinates. Prior to this, however, the system would need the city/town/county location in order to retrieve an accurate map. Notification alerts would work by sending nearby users relevant information about the zone being created. This would include the bounding streets and avenues, parking allocations, and possible additional restrictions.
+                </p>
+                <div class="columns">
+                    <div class="column give-bg-color">
+                        <div class="card equal-height grey-bg-2">
+                          <div class="card-content is-flex is-horizontal-center">
+                            <figure class="image">
+                                <img src="assets/extras/vcfzs_alert_ui.png" alt="Notification System">
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        
+            <div class="user-interface" id="user-interface">
+                <h2>User Interface</h2>
+                <p>
+                    The UI for this project was created using Figma. We aimed to develop an interface with zone planners in mind. As the party responsible for setting up these virtual zones, they would need functionality from the product that would allow them to set boundaries, manage zones, and maintain a database of citizens and business owners. 
+                </p>
+                <div class="columns">
+                    <div class="column give-bg-color">
+                        <div class="card equal-height grey-bg-2">
+                          <div class="card-content is-flex is-horizontal-center">
+                            <figure class="image">
+                                <img src="assets/extras/vcfzs_ui.png" alt="VCFZS User Interface">
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

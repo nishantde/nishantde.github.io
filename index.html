@@ -1,51 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet"> 
-    <style type="text/css">
-        img {
-            scale: 5;
-            margin-bottom: 5%;
-        }
-        body {
-            margin-top: 15%;
-            background-color: whitesmoke;
-            font-family: 'Quicksand', sans-serif;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 48px;
-        }
-
-        h2 {
-            font-size: 26px;
-            margin-top:5%;
-            margin-bottom: 10%;
-        }
-
-        h4 {
-            font-size: medium;
-        }
-
-        .attribute {
-            font-size: 14px;
-        }
-
-        a {
-            color: grey;
-        }
-    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/new.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <img src="gear-rotation.svg" alt="Gear Rotating">
-    <h1>This webpage is undergoing a redesign</h1>
+    <div class="landing-section">
+      <div class="container is-max-desktop">
+        <div class="landing-section-content">
+          <div class="columns">
+            <div class="column">
+              <ul>
+                <li>
+                  <h1>Hello</h1>
+                </li>
+                <li>
+                  <h2>I'm Nishant!</h2>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li>
+                  <p class="landing-section-description">
+                    I'm a UX Designer focusing on efficient, solution-driven user experiences.
+                  </p>
+                </li>
+                <li>
+                  <div class="columns social-media-columns">
+                    <div class="column">
+                      <a href="https://www.facebook.com/deshpande.nishant12" class="landing-section-social-media-links">
+                        <img src="assets/logos/intro/facebook.svg" alt="Facebook Logo" class="landing-section-social-media-image">
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href="https://www.linkedin.com/in/nishantde/" class="landing-section-social-media-links">
+                        <img src="assets/logos/intro/linkedin.svg" alt="LinkedIn Logo" class="landing-section-social-media-image">
+                      </a>
+                    </div>
+                    <div class="column">
+                      <a href="https://www.instagram.com/arshant/" class="landing-section-social-media-links">
+                        <img src="assets/logos/intro/instagram.svg" alt="Instagram Logo" class="landing-section-social-media-image">
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-and-design-tools-section">
+      <div class="container is-max-desktop">
+        <h3>Projects</h3>
+        <div class="projects">
+          <div class="columns">
+            <div class="column">
+              <div class="project-one">
+                <div class="card">
+                  <!-- <div class="card-image">
+                    <figure class="image">
+                      <img src="assets/extras/roomsandmates_banner.png" alt="Rooms&Mates Banner">
+                    </figure>
+                  </div> -->
+                  <div class="card-content project-one-image">
+                    <div class="content">
+                      <p class="subtitle project-one-name">Rooms&amp;Mates</p>
+                      Rooms&amp;Mates is an application designed to help people find their ideal home.
+                      <br>
+                      <br>
+                      <a href="roomsandmates">View</a>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="project-two">
+                <div class="card">
+                  <!-- <div class="card-image">
+                    <figure class="image">
+                      <img src="assets/extras/parkit_banner.png" alt="ParkIt Banner">
+                    </figure>
+                  </div> -->
+                  <div class="card-content project-two-image">
+                    <div class="content">
+                      <p class="subtitle project-two-name">ParkIt</p>
+                      Assisting students and teachers to find and reserve a parking spot on Clemson campus.
+                      <br>
+                      <br>
+                      <a href="parkit">View</a>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="project-three">
+                <div class="card">
+                  <!-- <div class="card-image">
+                    <figure class="image">
+                      <img src="assets/extras/vcfzs_banner.png" alt="VCFZS Banner">
+                    </figure>
+                  </div> -->
+                  <div class="card-content project-three-image">
+                    <div class="content">
+                      <p class="subtitle project-three-name">VCFZS</p>
+                      A prototype of an application for organizations to set up virtual car-free zones
+                      <br>
+                      <br>
+                      <a href="vcfzs">View</a>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="design-tools">
+          <h3>Design Tools</h3>
+          <div class="design-tools-content">
+            <ul class="tools-row-one">
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/figma.png" alt="Figma Icon">
+                </figure>
+                <p>Figma</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/adobe-xd.png" alt="Adobe XD Icon">
+                </figure>
+                <p>Adobe XD</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/adobe-illustrator-new.png" alt="Adobe Illustrator Icon">
+                </figure>
+                <p>Illustrator</p>
+              </li>              
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/adobe-photoshop.png" alt="Adobe Photoshop Icon">
+                </figure>
+                <p>Photoshop</p>
+              </li>
+            </ul>
+            <ul class="tools-row-two">
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/html.png" alt="HTML5 Icon">
+                </figure>
+                <p>HTML</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/css.png" alt="CSS3 Icon">
+                </figure>
+                <p>CSS</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/javascript.png" alt="JavaScript Icon">
+                </figure>
+                <p>JavaScript</p>
+              </li>              
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/bulma.png" alt="Bulma CSS Icon">
+                </figure>
+                <p>Bulma CSS</p>
+              </li>
+            </ul>
+            <ul class="tools-row-three">
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/vs-code.png" alt="Visual Studio Code Icon">
+                </figure>
+                <p>VS Code</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/atom.png" alt="Atom Icon">
+                </figure>
+                <p>Atom</p>
+              </li>
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/sublime-text.png" alt="Sublime Text Icon">
+                </figure>
+                <p>Sublime Text</p>
+              </li>              
+              <li>
+                <figure class="image">
+                  <img src="assets/logos/design-tools/balsamiq.png" alt="Balsamiq Icon">
+                </figure>
+                <p>Balsamiq</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-me-section">
+      <div class="container">
+        <h3 class="alternate-title-color">
+          About Me
+        </h3>
+        <div class="columns parent-columns is-centered is-vcentered is-multiline is-mobile">
+          <div class="column is-narrow has-text-centered">
+            <!-- <center> -->
+              <figure class="image personal-photo-figure">
+                <img src="assets/extras/photo.png" class="personal-photo" alt="Personal Photo">
+              </figure>
+            <!-- </center> -->
+            <h4>Nishant Deshpande</h4>
+          </div>
+          <div class="column is-2 empty-space">
 
-    <h2>Stay tuned for updates!</h2>
-    
-<!--     <div class="attribute">Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>. Check them out!</div> -->
+          </div>
+          <div class="column">
+            <p>
+              I am a graduate student pursuing my Master's degree in Computer Science at Clemson University. I love gaming and I'm into everything minimal.
+            </p>
+            <div class="columns is-mobile child-columns is-centered is-vcentered">
+              <div class="column hide-mobile">
+                <a href="https://www.linkedin.com/in/nishantde/">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/linkedin.png" alt="LinkedIn Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="column hide-mobile">
+                <a href="https://www.facebook.com/deshpande.nishant12">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/facebook.png" alt="Facebook Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="column show-mobile">
+                <a href="https://twitter.com/nishdesh">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/twitter.png" alt="Twitter Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="column hide-mobile">
+                <a href="https://www.instagram.com/arshant/">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/instagram.png" alt="Instagram Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="column show-mobile">
+                <a href="https://www.snapchat.com/add/nishantd97">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/snapchat.png" alt="Snapchat Logo">
+                  </figure>
+                </a>
+              </div>
+              <div class="column show-mobile">
+                <a href="https://github.com/nishantde">
+                  <figure class="image">
+                    <img src="assets/logos/about-me/github.png" alt="GitHub Logo">
+                  </figure>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
