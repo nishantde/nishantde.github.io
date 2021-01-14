@@ -2,7 +2,7 @@
   font-family: 'Leelawadee';
   font-weight: normal;
   font-style: normal;
-  src: local("Leelawadee") url("../assets/extras/leelawad.woff") format("woff2");
+  src: local("Leelawadee") url("/../assets/extras/leelawad.woff") format("woff");
 }
 
 body {
@@ -39,15 +39,20 @@ h1, h2, h3 {
   font-size: 48px;
   font-weight: bold;
   text-align: center;
-  margin: 2rem 0;
   color: darkslategray;
 }
 
+h1 {
+  padding: 2rem 0;
+}
+
 h2 {
+  margin: 2rem 0;
   font-size: 36px;
 }
 
 h3 {
+  margin: 2rem 0;
   font-size: 24px;
 }
 
