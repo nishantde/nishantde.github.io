@@ -2,7 +2,7 @@
   font-family: 'Leelawadee';
   font-weight: normal;
   font-style: normal;
-  src: local("Leelawadee") url("./../assets/extras/leelawad.woff") format("woff");
+  src: local("Leelawadee") url("/../assets/extras/leelawad.woff") format("woff");
 }
 
 body {
