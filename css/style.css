@@ -1,0 +1,243 @@
+@import url("./../assets/fonts/fonts.css");
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main-navbar {
+  padding-top: 15px;
+  background-color: transparent;
+}
+
+.main-navbar .navbar-brand img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main-navbar a {
+  margin-top: -3%;
+  color: white;
+  font-family: 'Nurom Light';
+  padding: 0 20px;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.main-navbar a.last-item {
+  margin-right: 40px;
+}
+
+.intro-section {
+  background-color: #01E9DB;
+}
+
+.intro-with-background {
+  text-align: center;
+  position: relative;
+}
+
+.background-image {
+  margin: auto;
+  display: block;
+}
+
+.name-and-position {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: black;
+}
+
+.name-and-position .name {
+  font-family: 'Beckman Free', sans-serif;
+  font-size: 72px;
+  letter-spacing: 10px;
+  max-width: 100vw;
+}
+
+.name-and-position .position {
+  font-family: 'Amnesty Script';
+  width: 100vw;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-size: 64px;
+}
+
+.name-and-position .position .position-ampersand {
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 800px) {
+  .name-and-position {
+    top: 55%;
+  }
+  .name-and-position .name {
+    font-size: 48px;
+  }
+  .name-and-position .position {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .name-and-position {
+    top: 50%;
+  }
+  .name-and-position .name {
+    font-size: 36px;
+  }
+  .name-and-position .position {
+    font-size: 22px;
+  }
+}
+
+.description-section .description {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.description-section .description .screens {
+  width: 75%;
+}
+
+.description-section .description .subheading-description {
+  font-family: 'Nurom Bold';
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.description-section .description .subheading-description .strikethrough {
+  text-decoration: line-through;
+}
+
+.description-section .description .subheading-description .people {
+  font-family: 'Amnesty Script';
+  color: #E9D401;
+  font-size: 38px;
+}
+
+.description-section .main-description {
+  font-family: 'Nurom Regular';
+}
+
+.description-section .underline {
+  font-family: 'Nurom Medium';
+  text-decoration: underline;
+}
+
+.description-section .subheading-description, .description-section .main-description, .description-section .underline {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projects-section {
+  background-color: #626262;
+  padding-top: 3em;
+  font-family: 'Nurom Regular';
+}
+
+h4 {
+  font-family: 'Beckman';
+  letter-spacing: 5px;
+  text-align: center;
+  color: #EAEAEA;
+  font-size: 1.5em;
+}
+
+h5 {
+  font-family: 'Amnesty Script';
+  color: black;
+  font-size: 2em;
+}
+
+#project-one, #project-two, #project-three {
+  margin-top: 50px;
+  text-align: center;
+  color: #EAEAEA;
+}
+
+#project-one a, #project-two a, #project-three a {
+  color: #EAEAEA;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+#project-one .project-title-and-description, #project-two .project-title-and-description, #project-three .project-title-and-description {
+  max-width: 300px;
+  margin: auto;
+  line-height: 2;
+}
+
+#project-one .project-title-and-description .project-title, #project-one .project-title-and-description .project-page-link, #project-two .project-title-and-description .project-title, #project-two .project-title-and-description .project-page-link, #project-three .project-title-and-description .project-title, #project-three .project-title-and-description .project-page-link {
+  padding: 10px 0;
+}
+
+#project-one .project-title-and-description .project-description, #project-two .project-title-and-description .project-description, #project-three .project-title-and-description .project-description {
+  padding: 25px 0;
+}
+
+#project-one .project .project-image img, #project-two .project .project-image img, #project-three .project .project-image img {
+  border-radius: 10px;
+  width: 95%;
+}
+
+.design-tools-section {
+  margin-top: 50px;
+  font-family: 'Nurom Regular';
+}
+
+.design-tools-section h4 {
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.design-tools-section h6 {
+  font-family: 'Beckman Free';
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.design-tools-section .design-tools-description {
+  line-height: 2;
+}
+
+.design-tools-section .design-tools-description p {
+  padding: 10px 0;
+}
+
+.design-tools-section .columns.is-centered.is-vcentered {
+  margin-top: 2vh;
+  max-width: 800px;
+  margin: auto;
+}
+
+.design-tools-section .columns.is-centered.is-vcentered figure {
+  text-align: center;
+}
+
+.design-tools-section .columns.is-centered.is-vcentered figure img {
+  max-width: 30%;
+}
+
+.design-tools-section .columns.is-centered.is-vcentered figure figcaption {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Nurom DemiBold';
+  opacity: 0.85;
+}
+
+.final-section {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Nurom Regular';
+}
+/*# sourceMappingURL=style.css.map */

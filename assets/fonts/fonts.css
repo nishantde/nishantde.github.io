@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Beckman Free';
+    src: url('BeckmanFree.woff2') format('woff2'),
+        url('BeckmanFree.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amnesty Script';
+    src: url('AmnestyScript.woff2') format('woff2'),
+        url('AmnestyScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Bold';
+    src: url('NuromW00-Bold.woff2') format('woff2'),
+        url('NuromW00-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom DemiBold';
+    src: url('NuromW00-DemiBold.woff2') format('woff2'),
+        url('NuromW00-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom ExtraBold';
+    src: url('NuromW00-ExtraBold.woff2') format('woff2'),
+        url('NuromW00-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Heavy';
+    src: url('NuromW00-Heavy.woff2') format('woff2'),
+        url('NuromW00-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Italic';
+    src: url('NuromW00-Italic.woff2') format('woff2'),
+        url('NuromW00-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Light';
+    src: url('NuromW00-Light.woff2') format('woff2'),
+        url('NuromW00-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Medium';
+    src: url('NuromW00-Medium.woff2') format('woff2'),
+        url('NuromW00-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nurom Regular';
+    src: url('NuromW00-Regular.woff2') format('woff2'),
+        url('NuromW00-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

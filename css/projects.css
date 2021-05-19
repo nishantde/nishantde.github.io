@@ -1,185 +1,123 @@
-@font-face {
-  font-family: 'Leelawadee';
-  font-weight: normal;
-  font-style: normal;
-  src: local("Leelawadee") url("/../assets/extras/leelawad.woff") format("woff");
-}
-
+@import url("./../assets/fonts/fonts.css");
 body {
-  font-family: 'Leelawadee', Arial, Helvetica, sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  line-height: 1.8;
-  padding: 0 2rem;
-  color: dimgray;
-}
-
-img {
   width: 100%;
   height: 100%;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li {
-  margin-top: 1em;
-}
-
-ol {
-  margin: 1rem 0;
-}
-
-ol li {
-  margin: 0 2rem;
-}
-
-h1, h2, h3 {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-  color: darkslategray;
+  font-family: 'Nurom Regular';
 }
 
 h1 {
-  padding: 2rem 0;
+  font-size: 60px;
+  font-family: 'Nurom Bold';
 }
 
-h2 {
-  margin: 2rem 0;
-  font-size: 36px;
-}
-
-h3 {
-  margin: 2rem 0;
-  font-size: 24px;
-}
-
-h4, h5 {
-  font-size: 1rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-
-p {
-  padding: 1rem 0;
-}
-
-.option-plus, .option-minus {
-  opacity: 70%;
-  margin: calc(20px - 1rem) 0;
-  padding: calc(20px - 1rem) 0;
-}
-
-.option-plus {
-  color: seagreen;
-}
-
-.option-minus {
-  color: orangered;
-}
-
-img {
-  max-width: 960px;
-}
-
-.is-horizontal-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.card {
-  background-color: #fafafa;
-  margin: 15px 0;
-}
-
-.persona-image {
-  margin: 0;
-  padding: 0;
-}
-
-.persona-content {
-  padding: 0;
-}
-
-.persona-description {
-  text-align: center;
-  font-size: small;
-}
-
-.white-bg {
-  background-color: white;
-}
-
-.container {
-  background-color: white;
-}
-
-.grey-bg-1 {
-  background-color: #F0EEEE;
-}
-
-.grey-bg-2 {
-  background-color: #F6F6F6;
-}
-
-.project-1 {
-  color: #B069F8;
-}
-
-.project-2 {
+.parkit-color, .parkit-color a {
   color: #6388E7;
 }
 
-.project-3 {
+.rooms-and-mates-color, .rooms-and-mates-color a {
+  color: #B069F8;
+}
+
+.vcfzs-color, .vcfzs-color a {
   color: #CD62CF;
 }
 
-@media only screen and (min-width: 768px) {
-  ul.fixed-left-navbar {
-    list-style-type: none;
-    margin: 2rem 0;
-    width: 10em;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  ul.fixed-left-navbar a {
-    color: #838383;
-  }
-  li.navbar-list-item-parent a, li.navbar-list-item-child a {
-    display: block;
-    padding: 2px;
-    text-decoration: none;
-    color: dimgray;
-  }
-  .navbar-list-item-parent {
-    font-size: 16px;
-  }
-  .navbar-list-item-parent a:hover {
-    color: black;
-  }
-  .navbar-list-item-child {
-    font-size: 14px;
-    margin-left: 16px;
-  }
-  .main-page-content {
-    margin-left: 13em;
-    padding: 1px 16px;
-    height: auto;
-  }
+a:hover {
+  font-family: 'Nurom Medium';
 }
 
-@media only screen and (max-width: 767px) {
-  .left-vertical-navbar {
-    display: none;
-  }
-  .persona-card {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    margin: 15px 0;
-  }
+.jump-to {
+  font-family: 'Nurom DemiBold';
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+
+a:active {
+  font-family: 'Nurom Regular';
+}
+
+.contents li {
+  padding: 3px 0;
+}
+
+.contents li ul {
+  margin-left: 25px;
+  font-family: 'Nurom Light';
+}
+
+.column.is-one-fifth {
+  text-align: center;
+}
+
+.parkit-one, .rm-one, .vcfzs-one {
+  color: #434343;
+}
+
+.parkit-two {
+  color: #FFFFFF;
+  background-color: #6388E7;
+}
+
+.rm-two {
+  color: #FFFFFF;
+  background-color: #B069F8;
+}
+
+.vcfzs-two {
+  color: #FFFFFF;
+  background-color: #CD62CF;
+}
+
+h2 {
+  font-family: 'Nurom Bold';
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Nurom Bold';
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Nurom DemiBold';
+  font-size: 18px;
+}
+
+.bold-text {
+  font-family: 'Nurom DemiBold';
+}
+
+figcaption {
+  font-family: 'Nurom Light';
+  font-size: 14px;
+}
+
+figcaption .persona-bold {
+  font-family: 'Nurom DemiBold';
+}
+
+p {
+  padding: 8px 0;
+}
+
+.column > .subsection > p {
+  margin: 30px 0;
+}
+
+.image-section {
+  background-color: #F6F6F6;
+  padding: 45px 0;
+  text-align: center;
+}
+
+.persona-columns figure img {
+  border-radius: 10px;
+}
+
+.ui-image {
+  width: 85%;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 /*# sourceMappingURL=projects.css.map */
